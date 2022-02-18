@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-formidable": "^1.2.0",
+    "express-validator": "^6.13.0",
+    "extract-zip": "^2.0.1",
+    "file-api": "^0.10.4",
+    "stream": "0.0.2"
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/chiffrer" method="post">
+        <label for="nom">Nom : </label>
+        <input type="text" name="nom" id="nom">
+
+        <label for="prenom">Prénom : </label>
+        <input type="text" name="prenom" id="prenom">
+
+        <label for="numEtudiant">Numéro étudiant : </label>
+        <input type="text" name="numEtudiant" id="numEtudiant">
+
+        <label for="dateNaissance">Date de naissance : </label>
+        <input type="date" name="dateNaissance" id="dateNaissance">
+
+        <input type="submit" value="Valider" id="create">
+    </form>
+
+    <a download="info.txt" id="downloadlink" style="display: none">Download</a>
+</body>
+
+</html>
